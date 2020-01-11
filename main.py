@@ -65,7 +65,6 @@ def health():
 def auth():
     """
     Create JWT token based on email.
-    test new change
     """
     request_data = request.get_json()
     email = request_data.get('email')
